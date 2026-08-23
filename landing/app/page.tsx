@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useState } from 'react'
 
@@ -10,7 +10,7 @@ const demoCommands = [
 ]
 
 const PRO_CHECKOUT_URL =
-'https://aicostguard.lemonsqueezy.com/checkout/buy/e4e0f19c-76c7-42d6-9411-bbed5268a16b'
+'https://aicostguard.lemonsqueezy.com/checkout/buy/8801cd1c-d7ea-4df8-a2e7-e54565f32e65'
 
 const GITHUB_URL = 'https://github.com/salimassili62-afk/ai-costguard'
 const NPM_URL = 'https://www.npmjs.com/package/@salimassili/ai-costguard'
@@ -51,7 +51,7 @@ const demoProofs = [
 const limits = [
 'No SaaS, login, tracking, or hosted control plane.',
 'No private npm package.',
-'No runtime license enforcement.',
+  'No commercial-license enforcement.',
 'Not enterprise security software or a hard security boundary.',
 'Cost estimates are guardrails, not provider invoice reconciliation.',
 ]
@@ -99,7 +99,7 @@ Local-first AI agent cost protection </p>
           rel="noopener noreferrer"
           className="rounded-lg bg-orange-600 px-7 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-orange-700"
         >
-          Buy Pro - $99 one-time
+          Buy Pro — $99
         </a>
 
         <a
@@ -163,7 +163,7 @@ Local-first AI agent cost protection </p>
 
         <PlanCard
           title="Pro"
-          subtitle="AI CostGuard Pro Self-Serve - $99 one-time"
+          subtitle="AI CostGuard Pro Self-Serve — $99 one-time"
           items={proFeatures}
           ctaHref={PRO_CHECKOUT_URL}
           ctaText="Buy Pro"
@@ -224,7 +224,7 @@ Local-first AI agent cost protection </p>
         rel="noopener noreferrer"
         className="inline-block rounded-lg bg-orange-600 px-8 py-3 text-sm font-semibold text-white transition-colors hover:bg-orange-700"
       >
-        Buy Pro - $99 one-time
+        Buy Pro — $99
       </a>
     </div>
   </section>
@@ -232,7 +232,7 @@ Local-first AI agent cost protection </p>
   <footer className="container mx-auto px-4 py-8 text-center text-sm text-gray-400">
     <div className="mx-auto max-w-3xl">
       <a href="/privacy" className="underline">Privacy</a>
-      <span className="mx-2">•</span>
+      <span className="mx-2">�</span>
       <a href="/terms" className="underline">Terms</a>
     </div>
   </footer>
